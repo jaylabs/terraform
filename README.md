@@ -1,6 +1,6 @@
 # Terraform
 
-## Working with workspaces
+### Working with workspaces
 
 **terraform workspace list** - List available Workspaces
 **terraform workspace select workspace_name** - Select relevant Workspace
