@@ -1,7 +1,4 @@
-# Terraform
-
-Working with workspaces
-
+## Working with workspaces
 
 ### Setting up AWS named profiles
 
