@@ -9,7 +9,7 @@ terraform {
   required_version = "~> 0.12"
   backend "s3" {
     encrypt = true
-    bucket  = "terraform-remote-state-jay"
+    bucket  = "terraform-remote-state"
     key     = "terraform.tfstate"
     region  = "us-east-1"
     profile = "default"
