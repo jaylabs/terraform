@@ -45,6 +45,15 @@ module "s3" {
   }
 }
 
+# Creates bucket in specific environments (e.g., development only)
+# Settings: modules/s3-envs/variables.tf
+#
+#    "development" = 1
+#    "qa"          = 0
+#    "staging"     = 0
+#    "production"  = 0
+
+}  
 module "s3-envs" {
   source = "./modules/s3-envs"
   
