@@ -1,0 +1,6 @@
+[submodule "workspaces-modules/modules/s3"]
+	path = workspaces-modules/modules/s3
+	url = https://github.com/terraform-aws-modules/terraform-aws-s3-bucket
+[submodule "workspaces-modules/modules/vpc"]
+	path = workspaces-modules/modules/vpc
+	url = https://github.com/terraform-aws-modules/terraform-aws-vpc
