@@ -43,5 +43,12 @@ module "s3" {
   versioning = {
     enabled = true
   }
+}
 
+module "s3-envs" {
+  source = "./modules/s3-envs"
+  
+  bucket = "${local.app_name}-${lookup(local.env_name, local.environment)}-${lookup(local.env_type, local.environment)}-${lookup(local.region, local.environment)}"
+  
+  tags = local.common_tags
 }
